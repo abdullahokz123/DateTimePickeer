@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 m=myCalendar.get(Calendar.MONTH);
                 d=myCalendar.get(Calendar.DAY_OF_MONTH);
 
-                tvShow.setText(""+d+"/"+m+"/"+y);   // showing current date
+                tvShow.setText(""+d+"/"+m+"/"+y);   // showing current date of the day
 
                 //showing datePickerDialog
                 DatePickerDialog datePickerDialog =new DatePickerDialog(MainActivity.this, new DatePickerDialog.OnDateSetListener() {
